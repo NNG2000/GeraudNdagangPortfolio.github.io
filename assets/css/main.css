@@ -2293,6 +2293,10 @@ input, select, textarea {
 					padding: 2em 0 2em 0;
 				}
 
+				.wrapper.style1 a{
+					margin-top: 1%;
+				}
+
 		/* Articles */
 
 			#top {
@@ -2336,6 +2340,10 @@ input, select, textarea {
 					text-shadow: none;
 					border-radius: 2ch;
 		
+				}
+
+				.wrapper.style1 a{
+					margin-top: 1%;
 				}
 
 	}
@@ -2390,6 +2398,17 @@ input, select, textarea {
 
 			section, article {
 				clear: both;
+			}
+
+			.project-tools{
+				display: inline-block;
+				width: 100px;
+				margin-top: 1%;
+				padding: 5px;
+				background-color: #51aeda;
+				text-shadow: none;
+				border-radius: 2ch;
+	
 			}
 
 		/* Button */
@@ -2492,6 +2511,9 @@ input, select, textarea {
 				padding: 3em 0;
 				text-align: center;
 			}
+			.wrapper.style1 a{
+				margin-top: 1%;
+			}
 
 		/* Nav */
 
@@ -2499,6 +2521,20 @@ input, select, textarea {
 				height: 44px;
 				line-height: 44px;
 			}
+			  
+			    #nav ::-webkit-scrollbar{
+					height: 10px;
+				}
+
+				#nav ::-webkit-scrollbar-track{
+					background: #f1f1f1;
+				}
+				#nav ::-webkit-scrollbar-thumb{
+					background: #888;
+				}
+				#nav ::-webkit-scrollbar-thumb:hover{
+					background: #555;
+				}
 
 				#nav a {
 					padding: 0 0.75em;
