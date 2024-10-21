@@ -2268,7 +2268,17 @@ input, select, textarea {
 			}
 
 			header {
-				margin: 0 0 4em 0;
+				margin: 4em 0 4em 0;
+			}
+			.project-tools{
+				display: inline-block;
+				width: 100px;
+				margin-top: 1%;
+				padding: 5px;
+				background-color: #51aeda;
+				text-shadow: none;
+				border-radius: 2ch;
+	
 			}
 
 		/* Wrappers */
@@ -2310,6 +2320,22 @@ input, select, textarea {
 
 				#top .image {
 					margin: 0 auto 2em auto;
+				}
+
+		/* Basic */
+
+				header {
+					margin: 4em 0 4em 0;
+				}
+				.project-tools{
+					display: inline-block;
+					width: 100px;
+					margin-top: 1%;
+					padding: 5px;
+					background-color: #51aeda;
+					text-shadow: none;
+					border-radius: 2ch;
+		
 				}
 
 	}
